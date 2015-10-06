@@ -1,0 +1,57 @@
+Initialize engine version: 4.6.8f1 (583461196f73)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680   (ID=0x1180)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\System.dll (this message is harmless)
+Unity v4.6.8f1, Oculus Integration v0.1.1.0, OVRPlugin v0.1.2.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[OVR] 10/06/15 23:03:23: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT32_0_7.dll
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[OVR] 10/06/15 23:03:24: [CAPI] ovr_Create failed to complete within the timeout period.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[OVR] Failed to create Oculus HMD.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[OVR] Compositor failed to initialize.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Runtime is not present or no Rift attached. Running without VR.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 1.067366 ms
+UnloadTime: 0.218051 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 242.
+Total: 0.511095 ms (FindLiveObjects: 0.013854 ms CreateObjectMapping: 0.006625 ms MarkObjects: 0.105411 ms  DeleteObjects: 0.002710 ms)
+
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage_Data\Managed\Boo.Lang.dll (this message is harmless)

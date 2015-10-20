@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class plot : MonoBehaviour {
-
-	public Material yellow;
+public class Hoe : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,9 +11,5 @@ public class plot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-	}
-	public void change()
-	{
-		this.renderer.material = yellow;
 	}
 }

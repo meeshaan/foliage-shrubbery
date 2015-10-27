@@ -17,8 +17,10 @@ public class movementScript : MonoBehaviour {
 	
 		if (Input.GetMouseButton (1)) {
 			Player.transform.Translate (Vector3.forward * speed);
+			this.gameObject.GetComponent<AudioSource>().Play();
 		} else {
 			Player.transform.Translate(Vector3.zero);
+			this.gameObject.GetComponent<AudioSource>().Stop();
 		}
 	}
 }

@@ -1,0 +1,33 @@
+Initialize engine version: 4.6.8f1 (583461196f73)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680   (ID=0x1180)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\TheHollowManV\Documents\Games Made\Shrubbery\Foliage1_Data\Managed\System.dll (this message is harmless)
+Unity v4.6.8f1, Oculus Integration v0.1.1.0, OVRPlugin v0.1.2.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+[OVR] 10/27/15 22:55:14: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT32_0_7.dll
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+

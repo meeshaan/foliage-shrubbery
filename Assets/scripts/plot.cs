@@ -9,6 +9,7 @@ public class plot : MonoBehaviour {
 	public Material covered;
 	public Material watered;
 	public Material flower;
+	public GameObject sFlower;
 
 	bool water = false;
 	bool grown = false;
@@ -19,6 +20,7 @@ public class plot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		this.renderer.material = initial;
+		sFlower = GameObject.Find ("Sunflower");
 	}
 	
 	// Update is called once per frame
@@ -58,6 +60,8 @@ public class plot : MonoBehaviour {
 			break;
 		case 5:
 			this.renderer.material = flower;
+			GameObject temp = Instantiate(sFlower,this.transform.position,this.transform.rotation) as GameObject;
+			temp.transform.localScale.Set(.25f,.25f,.25f);
 			state = 5;
 			break;
 		}

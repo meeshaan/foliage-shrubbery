@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 1a4e51d1269ff6848a39351c1267633b
+timeCreated: 1444173062
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arms:RetopoGroup1
+    100002: //RootNode
+    100004: jnt_Head
+    100006: jnt_L_Clavicle
+    100008: jnt_L_ElbowA
+    100010: jnt_L_ElbowB
+    100012: jnt_L_FingerBase
+    100014: jnt_L_Foot
+    100016: jnt_L_Hip
+    100018: jnt_L_IndexA
+    100020: jnt_L_IndexB
+    100022: jnt_L_IndexC
+    100024: jnt_L_IndexD
+    100026: jnt_L_Knee
+    100028: jnt_L_MiddleA
+    100030: jnt_L_MiddleB
+    100032: jnt_L_MiddleC
+    100034: jnt_L_MiddleD
+    100036: jnt_L_PinkyA
+    100038: jnt_L_PinkyB
+    100040: jnt_L_PinkyC
+    100042: jnt_L_PinkyD
+    100044: jnt_L_RingA
+    100046: jnt_L_RingB
+    100048: jnt_L_RingC
+    100050: jnt_L_RingD
+    100052: jnt_L_Shoulder
+    100054: jnt_L_ThumbA
+    100056: jnt_L_ThumbB
+    100058: jnt_L_ThumbD
+    100060: jnt_L_Wrist
+    100062: jnt_R_Clavicle
+    100064: jnt_R_ElbowA
+    100066: jnt_R_ElbowB
+    100068: jnt_R_FingerBase
+    100070: jnt_R_Foot
+    100072: jnt_R_Hip
+    100074: jnt_R_IndexA
+    100076: jnt_R_IndexB
+    100078: jnt_R_IndexC
+    100080: jnt_R_IndexD
+    100082: jnt_R_Knee
+    100084: jnt_R_MiddleA
+    100086: jnt_R_MiddleB
+    100088: jnt_R_MiddleC
+    100090: jnt_R_MiddleD
+    100092: jnt_R_PinkyA
+    100094: jnt_R_PinkyB
+    100096: jnt_R_PinkyC
+    100098: jnt_R_PinkyD
+    100100: jnt_R_RingA
+    100102: jnt_R_RingB
+    100104: jnt_R_RingC
+    100106: jnt_R_RingD
+    100108: jnt_R_Shoulder
+    100110: jnt_R_ThumbA
+    100112: jnt_R_ThumbB
+    100114: jnt_R_ThumbD
+    100116: jnt_R_Wrist
+    100118: jnt_SpineA
+    100120: jnt_SpineB
+    100122: jnt_SpineC
+    100124: jnt_SpineD
+    100126: joint5
+    400000: Arms:RetopoGroup1
+    400002: //RootNode
+    400004: jnt_Head
+    400006: jnt_L_Clavicle
+    400008: jnt_L_ElbowA
+    400010: jnt_L_ElbowB
+    400012: jnt_L_FingerBase
+    400014: jnt_L_Foot
+    400016: jnt_L_Hip
+    400018: jnt_L_IndexA
+    400020: jnt_L_IndexB
+    400022: jnt_L_IndexC
+    400024: jnt_L_IndexD
+    400026: jnt_L_Knee
+    400028: jnt_L_MiddleA
+    400030: jnt_L_MiddleB
+    400032: jnt_L_MiddleC
+    400034: jnt_L_MiddleD
+    400036: jnt_L_PinkyA
+    400038: jnt_L_PinkyB
+    400040: jnt_L_PinkyC
+    400042: jnt_L_PinkyD
+    400044: jnt_L_RingA
+    400046: jnt_L_RingB
+    400048: jnt_L_RingC
+    400050: jnt_L_RingD
+    400052: jnt_L_Shoulder
+    400054: jnt_L_ThumbA
+    400056: jnt_L_ThumbB
+    400058: jnt_L_ThumbD
+    400060: jnt_L_Wrist
+    400062: jnt_R_Clavicle
+    400064: jnt_R_ElbowA
+    400066: jnt_R_ElbowB
+    400068: jnt_R_FingerBase
+    400070: jnt_R_Foot
+    400072: jnt_R_Hip
+    400074: jnt_R_IndexA
+    400076: jnt_R_IndexB
+    400078: jnt_R_IndexC
+    400080: jnt_R_IndexD
+    400082: jnt_R_Knee
+    400084: jnt_R_MiddleA
+    400086: jnt_R_MiddleB
+    400088: jnt_R_MiddleC
+    400090: jnt_R_MiddleD
+    400092: jnt_R_PinkyA
+    400094: jnt_R_PinkyB
+    400096: jnt_R_PinkyC
+    400098: jnt_R_PinkyD
+    400100: jnt_R_RingA
+    400102: jnt_R_RingB
+    400104: jnt_R_RingC
+    400106: jnt_R_RingD
+    400108: jnt_R_Shoulder
+    400110: jnt_R_ThumbA
+    400112: jnt_R_ThumbB
+    400114: jnt_R_ThumbD
+    400116: jnt_R_Wrist
+    400118: jnt_SpineA
+    400120: jnt_SpineB
+    400122: jnt_SpineC
+    400124: jnt_SpineD
+    400126: joint5
+    4300000: Arms:RetopoGroup1
+    7400000: Walk
+    9500000: //RootNode
+    13700000: Arms:RetopoGroup1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms:RetopoGroup1
+        weight: 1
+      - path: jnt_SpineA
+        weight: 1
+      - path: jnt_SpineA/jnt_L_Hip
+        weight: 1
+      - path: jnt_SpineA/jnt_L_Hip/jnt_L_Knee
+        weight: 1
+      - path: jnt_SpineA/jnt_L_Hip/jnt_L_Knee/jnt_L_Foot
+        weight: 1
+      - path: jnt_SpineA/jnt_R_Hip
+        weight: 1
+      - path: jnt_SpineA/jnt_R_Hip/jnt_R_Knee
+        weight: 1
+      - path: jnt_SpineA/jnt_R_Hip/jnt_R_Knee/jnt_R_Foot
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_Head
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_Head/joint5
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_IndexA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_IndexA/jnt_L_IndexB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_IndexA/jnt_L_IndexB/jnt_L_IndexC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_IndexA/jnt_L_IndexB/jnt_L_IndexC/jnt_L_IndexD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_MiddleA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_MiddleA/jnt_L_MiddleB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_MiddleA/jnt_L_MiddleB/jnt_L_MiddleC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_MiddleA/jnt_L_MiddleB/jnt_L_MiddleC/jnt_L_MiddleD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_PinkyA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_PinkyA/jnt_L_PinkyB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_PinkyA/jnt_L_PinkyB/jnt_L_PinkyC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_PinkyA/jnt_L_PinkyB/jnt_L_PinkyC/jnt_L_PinkyD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_RingA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_RingA/jnt_L_RingB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_RingA/jnt_L_RingB/jnt_L_RingC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_RingA/jnt_L_RingB/jnt_L_RingC/jnt_L_RingD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_ThumbA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_ThumbA/jnt_L_ThumbB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_L_Clavicle/jnt_L_Shoulder/jnt_L_ElbowA/jnt_L_ElbowB/jnt_L_Wrist/jnt_L_FingerBase/jnt_L_ThumbA/jnt_L_ThumbB/jnt_L_ThumbD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_IndexA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_IndexA/jnt_R_IndexB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_IndexA/jnt_R_IndexB/jnt_R_IndexC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_IndexA/jnt_R_IndexB/jnt_R_IndexC/jnt_R_IndexD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_MiddleA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_MiddleA/jnt_R_MiddleB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_MiddleA/jnt_R_MiddleB/jnt_R_MiddleC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_MiddleA/jnt_R_MiddleB/jnt_R_MiddleC/jnt_R_MiddleD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_PinkyA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_PinkyA/jnt_R_PinkyB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_PinkyA/jnt_R_PinkyB/jnt_R_PinkyC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_PinkyA/jnt_R_PinkyB/jnt_R_PinkyC/jnt_R_PinkyD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_RingA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_RingA/jnt_R_RingB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_RingA/jnt_R_RingB/jnt_R_RingC
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_RingA/jnt_R_RingB/jnt_R_RingC/jnt_R_RingD
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_ThumbA
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_ThumbA/jnt_R_ThumbB
+        weight: 1
+      - path: jnt_SpineA/jnt_SpineB/jnt_SpineC/jnt_SpineD/jnt_R_Clavicle/jnt_R_Shoulder/jnt_R_ElbowA/jnt_R_ElbowB/jnt_R_Wrist/jnt_R_FingerBase/jnt_R_ThumbA/jnt_R_ThumbB/jnt_R_ThumbD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9021c09bb919eea4482bd0320e43f27c,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -85,10 +85,12 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\scripts\cast.cs" />
+     <Compile Include="Assets\scripts\highLight.cs" />
      <Compile Include="Assets\scripts\menu.cs" />
      <Compile Include="Assets\scripts\movementScript.cs" />
      <Compile Include="Assets\scripts\plot.cs" />
      <Compile Include="Assets\scripts\rayCast.cs" />
+     <Compile Include="Assets\scripts\sounds.cs" />
      <Compile Include="Assets\scripts\tools\Hoe.cs" />
      <Compile Include="Assets\scripts\tools\WaterPail.cs" />
      <Compile Include="Assets\scripts\tools\seed.cs" />
@@ -98,6 +100,7 @@
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\Materials\Materials\AlphaTest-BumpSpec.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\OVR\Resources\Oculus-BlitCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">

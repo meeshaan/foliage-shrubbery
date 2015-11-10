@@ -79,7 +79,7 @@ public class cast : MonoBehaviour {
 	{
 		RaycastHit hit;
 		Vector3 fwd = transform.TransformDirection (Vector3.forward);
-		if (Physics.Raycast (this.transform.position, fwd, out hit, 10)) {
+		if (Physics.Raycast (this.transform.position, fwd, out hit, 4)) {
 			Debug.Log (hit.rigidbody.gameObject.tag.ToString ());
 			item = hit.rigidbody.gameObject as GameObject;
 			item.GetComponent<highLight>().OnHover();

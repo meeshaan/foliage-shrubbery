@@ -2,7 +2,20 @@ fileFormatVersion: 2
 guid: 8b1acc670b2f3d843a03c2fd4acaa1e4
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - initial: {instanceID: 0}
+  - dug: {instanceID: 0}
+  - seed: {instanceID: 0}
+  - covered: {instanceID: 0}
+  - watered: {instanceID: 0}
+  - flower: {instanceID: 0}
+  - sFlower: {instanceID: 0}
+  - dirtInitial: {fileID: 100000, guid: 6c02437fb7f296948a3208ce3dc6bf70, type: 3}
+  - dirtDug: {instanceID: 0}
+  - dirtSeed: {instanceID: 0}
+  - dirtCovered: {instanceID: 0}
+  - dirtWatered: {instanceID: 0}
+  - sunFlower: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

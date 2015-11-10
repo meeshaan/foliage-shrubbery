@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: af12d1eaf4cba3840820f6b143da1417
+timeCreated: 1445994769
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Back_Leaf
+    100002: Back_Leaf1
+    100004: Back_Leaf2
+    100006: Back_Leaf3
+    100008: Back_Leaf4
+    100010: Back_Leaf5
+    100012: Back_Leaf6
+    100014: Head
+    100016: joint10
+    100018: joint11
+    100020: joint14
+    100022: joint15
+    100024: joint18
+    100026: joint19
+    100028: joint22
+    100030: joint23
+    100032: joint26
+    100034: joint27
+    100036: joint30
+    100038: joint31
+    100040: joint34
+    100042: joint35
+    100044: joint38
+    100046: joint39
+    100048: joint41
+    100050: joint43
+    100052: joint46
+    100054: joint47
+    100056: joint50
+    100058: joint51
+    100060: joint54
+    100062: joint55
+    100064: joint57
+    100066: joint58
+    100068: joint59
+    100070: joint60
+    100072: joint61
+    100074: joint62
+    100076: joint63
+    100078: joint64
+    100080: joint8
+    100082: Leaf_10_Base
+    100084: Leaf_11_Base
+    100086: Leaf_12_Base
+    100088: Leaf_1_Base
+    100090: Leaf_2_Base
+    100092: Leaf_3_Base
+    100094: Leaf_4_Base
+    100096: Leaf_5_Base
+    100098: Leaf_6_Base
+    100100: Leaf_7_Base
+    100102: Leaf_8_Base
+    100104: Leaf_9_Base
+    100106: Pedal_Cluster
+    100108: Pedal_Cluster1
+    100110: Pedal_Cluster2
+    100112: Pedal_Cluster3
+    100114: Pedal_Cluster4
+    100116: Pedal_Cluster5
+    100118: Pedal_Cluster6
+    100120: Pedal_Cluster7
+    100122: Pedal_Cluster8
+    100124: pPlane10
+    100126: pPlane11
+    100128: pPlane12
+    100130: pPlane13
+    100132: pPlane14
+    100134: pPlane15
+    100136: pPlane16
+    100138: pPlane5
+    100140: pPlane6
+    100142: pPlane7
+    100144: pPlane8
+    100146: pPlane9
+    100148: Root
+    100150: Stalk_1
+    100152: Stalk_2
+    100154: Stalk_3
+    100156: Stalk_4
+    100158: Stalk_5
+    100160: //RootNode
+    100162: Sunflower_Base_RetopoGroup1
+    100164: transform1
+    100166: transform10
+    100168: transform11
+    100170: transform12
+    100172: transform13
+    100174: transform14
+    100176: transform15
+    100178: transform16
+    100180: transform17
+    100182: transform18
+    100184: transform19
+    100186: transform2
+    100188: transform20
+    100190: transform21
+    100192: transform22
+    100194: transform23
+    100196: transform24
+    100198: transform25
+    100200: transform26
+    100202: transform27
+    100204: transform3
+    100206: transform4
+    100208: transform5
+    100210: transform6
+    100212: transform7
+    100214: transform8
+    100216: transform9
+    400000: Back_Leaf
+    400002: Back_Leaf1
+    400004: Back_Leaf2
+    400006: Back_Leaf3
+    400008: Back_Leaf4
+    400010: Back_Leaf5
+    400012: Back_Leaf6
+    400014: Head
+    400016: joint10
+    400018: joint11
+    400020: joint14
+    400022: joint15
+    400024: joint18
+    400026: joint19
+    400028: joint22
+    400030: joint23
+    400032: joint26
+    400034: joint27
+    400036: joint30
+    400038: joint31
+    400040: joint34
+    400042: joint35
+    400044: joint38
+    400046: joint39
+    400048: joint41
+    400050: joint43
+    400052: joint46
+    400054: joint47
+    400056: joint50
+    400058: joint51
+    400060: joint54
+    400062: joint55
+    400064: joint57
+    400066: joint58
+    400068: joint59
+    400070: joint60
+    400072: joint61
+    400074: joint62
+    400076: joint63
+    400078: joint64
+    400080: joint8
+    400082: Leaf_10_Base
+    400084: Leaf_11_Base
+    400086: Leaf_12_Base
+    400088: Leaf_1_Base
+    400090: Leaf_2_Base
+    400092: Leaf_3_Base
+    400094: Leaf_4_Base
+    400096: Leaf_5_Base
+    400098: Leaf_6_Base
+    400100: Leaf_7_Base
+    400102: Leaf_8_Base
+    400104: Leaf_9_Base
+    400106: Pedal_Cluster
+    400108: Pedal_Cluster1
+    400110: Pedal_Cluster2
+    400112: Pedal_Cluster3
+    400114: Pedal_Cluster4
+    400116: Pedal_Cluster5
+    400118: Pedal_Cluster6
+    400120: Pedal_Cluster7
+    400122: Pedal_Cluster8
+    400124: pPlane10
+    400126: pPlane11
+    400128: pPlane12
+    400130: pPlane13
+    400132: pPlane14
+    400134: pPlane15
+    400136: pPlane16
+    400138: pPlane5
+    400140: pPlane6
+    400142: pPlane7
+    400144: pPlane8
+    400146: pPlane9
+    400148: Root
+    400150: Stalk_1
+    400152: Stalk_2
+    400154: Stalk_3
+    400156: Stalk_4
+    400158: Stalk_5
+    400160: //RootNode
+    400162: Sunflower_Base_RetopoGroup1
+    400164: transform1
+    400166: transform10
+    400168: transform11
+    400170: transform12
+    400172: transform13
+    400174: transform14
+    400176: transform15
+    400178: transform16
+    400180: transform17
+    400182: transform18
+    400184: transform19
+    400186: transform2
+    400188: transform20
+    400190: transform21
+    400192: transform22
+    400194: transform23
+    400196: transform24
+    400198: transform25
+    400200: transform26
+    400202: transform27
+    400204: transform3
+    400206: transform4
+    400208: transform5
+    400210: transform6
+    400212: transform7
+    400214: transform8
+    400216: transform9
+    4300000: Back_Leaf6
+    4300002: Pedal_Cluster8
+    7400000: Growth
+    7400002: Idle
+    9500000: //RootNode
+    13700000: Back_Leaf6
+    13700002: Pedal_Cluster8
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Growth
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Back_Leaf
+        weight: 1
+      - path: Back_Leaf/transform19
+        weight: 1
+      - path: Back_Leaf1
+        weight: 1
+      - path: Back_Leaf1/transform16
+        weight: 1
+      - path: Back_Leaf2
+        weight: 1
+      - path: Back_Leaf2/transform15
+        weight: 1
+      - path: Back_Leaf3
+        weight: 1
+      - path: Back_Leaf3/transform14
+        weight: 1
+      - path: Back_Leaf4
+        weight: 1
+      - path: Back_Leaf4/transform13
+        weight: 1
+      - path: Back_Leaf5
+        weight: 1
+      - path: Back_Leaf5/transform12
+        weight: 1
+      - path: Back_Leaf6
+        weight: 1
+      - path: Pedal_Cluster
+        weight: 1
+      - path: Pedal_Cluster/transform25
+        weight: 1
+      - path: Pedal_Cluster1
+        weight: 1
+      - path: Pedal_Cluster1/transform24
+        weight: 1
+      - path: Pedal_Cluster2
+        weight: 1
+      - path: Pedal_Cluster2/transform23
+        weight: 1
+      - path: Pedal_Cluster3
+        weight: 1
+      - path: Pedal_Cluster3/transform22
+        weight: 1
+      - path: Pedal_Cluster4
+        weight: 1
+      - path: Pedal_Cluster4/transform20
+        weight: 1
+      - path: Pedal_Cluster5
+        weight: 1
+      - path: Pedal_Cluster5/transform21
+        weight: 1
+      - path: Pedal_Cluster6
+        weight: 1
+      - path: Pedal_Cluster6/transform26
+        weight: 1
+      - path: Pedal_Cluster7
+        weight: 1
+      - path: Pedal_Cluster7/transform27
+        weight: 1
+      - path: Pedal_Cluster8
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      - path: pPlane5/transform17
+        weight: 1
+      - path: pPlane6
+        weight: 1
+      - path: pPlane6/transform11
+        weight: 1
+      - path: pPlane7
+        weight: 1
+      - path: pPlane7/transform10
+        weight: 1
+      - path: pPlane8
+        weight: 1
+      - path: pPlane8/transform9
+        weight: 1
+      - path: pPlane9
+        weight: 1
+      - path: pPlane9/transform8
+        weight: 1
+      - path: pPlane10
+        weight: 1
+      - path: pPlane10/transform7
+        weight: 1
+      - path: pPlane11
+        weight: 1
+      - path: pPlane11/transform6
+        weight: 1
+      - path: pPlane12
+        weight: 1
+      - path: pPlane12/transform5
+        weight: 1
+      - path: pPlane13
+        weight: 1
+      - path: pPlane13/transform4
+        weight: 1
+      - path: pPlane14
+        weight: 1
+      - path: pPlane14/transform3
+        weight: 1
+      - path: pPlane15
+        weight: 1
+      - path: pPlane15/transform2
+        weight: 1
+      - path: pPlane16
+        weight: 1
+      - path: pPlane16/transform1
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Stalk_1
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base/joint10
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base/joint10/joint11
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base/joint18
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base/joint18/joint19
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base/joint14
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base/joint14/joint15
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base/joint22
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base/joint22/joint23
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base/joint26
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base/joint26/joint27
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base/joint30
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base/joint30/joint31
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base/joint38
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base/joint38/joint39
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base/joint34
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base/joint34/joint35
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41/Leaf_10_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41/Leaf_10_Base/joint43
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base/joint50
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base/joint50/joint51
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base/joint54
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base/joint54/joint55
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base/joint46
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base/joint46/joint47
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint57
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint57/joint58
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint59
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint59/joint60
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint61
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint61/joint62
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint63
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint63/joint64
+        weight: 1
+      - path: Sunflower_Base_RetopoGroup1
+        weight: 1
+      - path: Sunflower_Base_RetopoGroup1/transform18
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 112
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Back_Leaf
+        weight: 1
+      - path: Back_Leaf/transform19
+        weight: 1
+      - path: Back_Leaf1
+        weight: 1
+      - path: Back_Leaf1/transform16
+        weight: 1
+      - path: Back_Leaf2
+        weight: 1
+      - path: Back_Leaf2/transform15
+        weight: 1
+      - path: Back_Leaf3
+        weight: 1
+      - path: Back_Leaf3/transform14
+        weight: 1
+      - path: Back_Leaf4
+        weight: 1
+      - path: Back_Leaf4/transform13
+        weight: 1
+      - path: Back_Leaf5
+        weight: 1
+      - path: Back_Leaf5/transform12
+        weight: 1
+      - path: Back_Leaf6
+        weight: 1
+      - path: Pedal_Cluster
+        weight: 1
+      - path: Pedal_Cluster/transform25
+        weight: 1
+      - path: Pedal_Cluster1
+        weight: 1
+      - path: Pedal_Cluster1/transform24
+        weight: 1
+      - path: Pedal_Cluster2
+        weight: 1
+      - path: Pedal_Cluster2/transform23
+        weight: 1
+      - path: Pedal_Cluster3
+        weight: 1
+      - path: Pedal_Cluster3/transform22
+        weight: 1
+      - path: Pedal_Cluster4
+        weight: 1
+      - path: Pedal_Cluster4/transform20
+        weight: 1
+      - path: Pedal_Cluster5
+        weight: 1
+      - path: Pedal_Cluster5/transform21
+        weight: 1
+      - path: Pedal_Cluster6
+        weight: 1
+      - path: Pedal_Cluster6/transform26
+        weight: 1
+      - path: Pedal_Cluster7
+        weight: 1
+      - path: Pedal_Cluster7/transform27
+        weight: 1
+      - path: Pedal_Cluster8
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      - path: pPlane5/transform17
+        weight: 1
+      - path: pPlane6
+        weight: 1
+      - path: pPlane6/transform11
+        weight: 1
+      - path: pPlane7
+        weight: 1
+      - path: pPlane7/transform10
+        weight: 1
+      - path: pPlane8
+        weight: 1
+      - path: pPlane8/transform9
+        weight: 1
+      - path: pPlane9
+        weight: 1
+      - path: pPlane9/transform8
+        weight: 1
+      - path: pPlane10
+        weight: 1
+      - path: pPlane10/transform7
+        weight: 1
+      - path: pPlane11
+        weight: 1
+      - path: pPlane11/transform6
+        weight: 1
+      - path: pPlane12
+        weight: 1
+      - path: pPlane12/transform5
+        weight: 1
+      - path: pPlane13
+        weight: 1
+      - path: pPlane13/transform4
+        weight: 1
+      - path: pPlane14
+        weight: 1
+      - path: pPlane14/transform3
+        weight: 1
+      - path: pPlane15
+        weight: 1
+      - path: pPlane15/transform2
+        weight: 1
+      - path: pPlane16
+        weight: 1
+      - path: pPlane16/transform1
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Stalk_1
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base/joint10
+        weight: 1
+      - path: Root/Stalk_1/Leaf_1_Base/joint10/joint11
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base/joint18
+        weight: 1
+      - path: Root/Stalk_1/Leaf_2_Base/joint18/joint19
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base/joint14
+        weight: 1
+      - path: Root/Stalk_1/Leaf_3_Base/joint14/joint15
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base/joint22
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_4_Base/joint22/joint23
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base/joint26
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_5_Base/joint26/joint27
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base/joint30
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Leaf_6_Base/joint30/joint31
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base/joint38
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_7_Base/joint38/joint39
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base/joint34
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Leaf_8_Base/joint34/joint35
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41/Leaf_10_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/joint41/Leaf_10_Base/joint43
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base/joint50
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_9_Base/joint50/joint51
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base/joint54
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_11_Base/joint54/joint55
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base/joint46
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Leaf_12_Base/joint46/joint47
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint57
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint57/joint58
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint59
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint59/joint60
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint61
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint61/joint62
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint63
+        weight: 1
+      - path: Root/Stalk_1/Stalk_2/Stalk_3/Stalk_4/Stalk_5/Head/joint8/joint63/joint64
+        weight: 1
+      - path: Sunflower_Base_RetopoGroup1
+        weight: 1
+      - path: Sunflower_Base_RetopoGroup1/transform18
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

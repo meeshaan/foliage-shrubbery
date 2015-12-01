@@ -12,11 +12,24 @@ public class cast : MonoBehaviour {
 	public GameObject pail;
 	public GameObject hoe;
 	public sounds sound;
+
+	public Light shovelLight;
+	public Light seedLight;
+	public Light hoeLight;
+	public Light pailLight;
+	public Light dirtLight;
+
+	private bool shovelTutorial = true;
+	private bool seedTutorial = true;
+	private bool hoeTutorial = true;
+	private bool pailTutorial = true;
+
 	// Use this for initialization
 	void Start () {
 		shovel.SetActive (false);
 		pail.SetActive (false);
 		hoe.SetActive (false);
+		shovelLight.enabled = true;
 	}
 	
 	// Update is called once per frame
@@ -31,23 +44,34 @@ public class cast : MonoBehaviour {
 				if (hit.rigidbody.gameObject.tag == "plots") {
 					if(useShovel && hit.collider.gameObject.GetComponent<plot>().getState() == 0)
 					{
+						dirtLight.enabled = false;
+						seedLight.enabled = true;
+						shovelTutorial = false;
 						hit.collider.gameObject.GetComponent<plot>().change(1);
 						sound.play(2);
 					}
 					if(useSeed && hit.collider.gameObject.GetComponent<plot>().getState() == 1)
 					{
+						dirtLight.enabled = false;
+						hoeLight.enabled = true;
+						seedTutorial = false;
 						hit.collider.gameObject.GetComponent<plot>().change(2);
 						sound.play(3);
 					}
 					if(useHoe && hit.collider.gameObject.GetComponent<plot>().getState() == 2)
 					{
+						dirtLight.enabled = false;
+						pailLight.enabled = true;
+						hoeTutorial = false;
 						hit.collider.gameObject.GetComponent<plot>().change(3);
 						sound.play(2);
 					}
 					if(useWater && hit.collider.gameObject.GetComponent<plot>().getState() == 3)
 					{
+						dirtLight.enabled = false;
 						hit.collider.gameObject.GetComponent<plot>().change(4);
 						sound.play(4);
+						pailTutorial = false;
 					}
 
 				}
@@ -73,7 +97,6 @@ public class cast : MonoBehaviour {
 				}
 			}
 		}
-
 	}
 	void constant()
 	{
@@ -105,20 +128,40 @@ public class cast : MonoBehaviour {
 			useShovel = true;
 			Debug.Log("Using shovel");
 			shovel.SetActive(true);
+			if (shovelTutorial)
+			{
+				shovelLight.enabled = false;
+				dirtLight.enabled = true;
+			}
 			break;
 		case 2:
 			useSeed = true;
 			Debug.Log("Using seed");
+			if (seedTutorial)
+			{
+				seedLight.enabled = false;
+				dirtLight.enabled = true;
+			}
 			break;
 		case 3:
 			useWater = true;
 			Debug.Log("Using water pail");
 			pail.SetActive(true);
+			if (pailTutorial)
+			{
+				pailLight.enabled = false;
+				dirtLight.enabled = true;
+			}
 			break;
 		case 4:
 			useHoe = true;
 			Debug.Log("Using hoe");
 			hoe.SetActive(true);
+			if (hoeTutorial)
+			{
+				hoeLight.enabled = false;
+				dirtLight.enabled = true;
+			}
 			break;
 		default:
 			break;

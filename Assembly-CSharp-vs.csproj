@@ -90,6 +90,8 @@
      <Compile Include="Assets\scripts\movementScript.cs" />
      <Compile Include="Assets\scripts\plot.cs" />
      <Compile Include="Assets\scripts\rayCast.cs" />
+     <Compile Include="Assets\scripts\shedDoorEnter.cs" />
+     <Compile Include="Assets\scripts\shedDoorExit.cs" />
      <Compile Include="Assets\scripts\sounds.cs" />
      <Compile Include="Assets\scripts\tools\Hoe.cs" />
      <Compile Include="Assets\scripts\tools\WaterPail.cs" />
@@ -102,6 +104,7 @@
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
      <None Include="Assets\Materials\Materials\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Materials\AlphaTest-BumpSpec.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\OVR\Resources\Oculus-BlitCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">

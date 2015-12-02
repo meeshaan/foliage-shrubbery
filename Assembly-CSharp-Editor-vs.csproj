@@ -61,7 +61,7 @@
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\OVR\Resources\Oculus-BlitCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/crazymeeshu/Desktop/foliage-shrubbery/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/TheHollowManV/Documents/GitHub/Foliage/foliage-shrubbery/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.8/Standalone/UnityEngine.UI.dll</HintPath>

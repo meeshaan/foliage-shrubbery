@@ -6,8 +6,7 @@ public class movementScript : MonoBehaviour {
 	public GameObject Player;
 	public Vector3 movementSpeed;
 	public float speed;
-	public bool teleUp = false;
-	public bool teleDown = false;
+	public Animator arms;
 
 	// Use this for initialization
 	void Start () {
@@ -18,12 +17,11 @@ public class movementScript : MonoBehaviour {
 	void Update () {
 	
 		if (Input.GetMouseButton (1)) {
+			arms.SetBool("ToolWalking",true);
 			Player.GetComponent<CharacterController>().SimpleMove(new Vector3(speed*Mathf.Sin((Player.transform.rotation.eulerAngles.y)*Mathf.PI/180f),0.0f,speed*Mathf.Cos((Player.transform.rotation.eulerAngles.y)*Mathf.PI/180f)));
-			Debug.Log("angle" + Player.transform.rotation.eulerAngles.y.ToString());
-			Debug.Log("sin" + Mathf.Sin((Player.transform.rotation.eulerAngles.y)*Mathf.PI/180f).ToString());
-			Debug.Log("cos" + Mathf.Cos((Player.transform.rotation.eulerAngles.y)*Mathf.PI/180f).ToString());
 			this.gameObject.GetComponent<AudioSource>().Play();
 		} else {
+			arms.SetBool("ToolWalking",false);
 			Player.GetComponent<CharacterController>().Move(Vector3.zero);
 			this.gameObject.GetComponent<AudioSource>().Stop();
 		}

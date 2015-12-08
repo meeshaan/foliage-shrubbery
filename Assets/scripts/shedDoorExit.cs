@@ -16,15 +16,15 @@ public class shedDoorExit : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider obj)
 	{
-		if (obj.gameObject == player.gameObject && !player.GetComponent<movementScript>().teleDown) {
-			player.GetComponent<movementScript>().teleUp = true;
+		if (obj.gameObject == player.gameObject) {
+			//player.GetComponent<movementScript>().teleUp = true;
 			player.transform.position = new Vector3(player.transform.position.x,player.transform.position.y + 100, player.transform.position.z);
 		}
 	}
 	void OnTriggerExit(Collider obj)
 	{
 		if (obj.gameObject == player.gameObject) {
-			player.GetComponent<movementScript> ().teleDown = false;
+			//player.GetComponent<movementScript> ().teleDown = false;
 		}
 	}
 }

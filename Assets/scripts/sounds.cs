@@ -4,6 +4,8 @@ using System.Collections;
 public class sounds : MonoBehaviour {
 	
 	public AudioClip pickuptool;
+	public AudioClip pickUpSeeds;
+	public AudioClip waterPickup;
 	public AudioClip shoveling;
 	public AudioClip spreading;
 	public AudioClip watering;
@@ -35,6 +37,12 @@ public class sounds : MonoBehaviour {
 			break;
 		case 4:
 			clip = watering;
+			break;
+		case 5:
+			clip = pickUpSeeds;
+			break;
+		case 6:
+			clip = waterPickup;
 			break;
 		}
 		AudioSource aS = player.GetComponent<AudioSource> ();

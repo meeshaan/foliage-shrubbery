@@ -16,8 +16,8 @@ public class shedDoorEnter : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider obj)
 	{
-		if (obj.gameObject == player.gameObject && !player.GetComponent<movementScript>().teleUp) {
-			player.GetComponent<movementScript>().teleDown=true;
+		if (obj.gameObject == player.gameObject) {
+			//player.GetComponent<movementScript>().teleDown=true;
 			player.transform.position = new Vector3(player.transform.position.x,player.transform.position.y - 100, player.transform.position.z);
 			//Debug.Log ("teledown true");
 		}
@@ -25,7 +25,7 @@ public class shedDoorEnter : MonoBehaviour {
 	void OnTriggerExit(Collider obj)
 	{
 		if (obj.gameObject == player.gameObject) {
-			player.GetComponent<movementScript> ().teleUp = false;
+			//player.GetComponent<movementScript> ().teleUp = false;
 			//Debug.Log ("teledown false");
 		}
 	}

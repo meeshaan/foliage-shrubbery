@@ -31,7 +31,7 @@ public class plot : MonoBehaviour {
 		temp.transform.localScale = new Vector3 (.009f, .009f, .009f);
 		temp.transform.position = new Vector3 (this.transform.position.x, .17f, this.transform.position.z);
 		dirtInitial = temp;
-		sFlower = GameObject.Find ("Sunflower");
+		sFlower = GameObject.Find ("SunFlower_Anim");
 	}
 	
 	// Update is called once per frame

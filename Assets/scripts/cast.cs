@@ -36,14 +36,19 @@ public class cast : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		constant ();
+
 		if (arms.GetCurrentAnimatorStateInfo (0).IsName ("Dig")) {
+			Debug.Log("in the loop");
 			arms.SetBool("Shovel Kneeling",false);
+			while(arms.GetBool("Shovel Kneeling"))
+			{
+				arms.SetBool("Shovel Kneeling",false);
+			}
 		}
 		if (arms.GetCurrentAnimatorStateInfo (0).IsName ("Hoe Cover")) {
 			arms.SetBool("Hoe Kneeling",false);
 		}
-
+		constant ();
 		if (Input.GetMouseButtonDown (0)) {
 			RaycastHit hit;
 			Vector3 fwd = transform.TransformDirection (Vector3.forward);
